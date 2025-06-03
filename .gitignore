@@ -2,3 +2,50 @@
 *.css.map
 *.sass.map
 *.scss.map
+
+# Ignore node_modules
+backend/node_modules/
+frontend/node_modules/
+# Ignore build output
+backend/dist/
+frontend/.next/
+# Ignore logs
+backend/logs/
+# Ignore environment files
+backend/.env
+frontend/.env
+backend/.venv
+# Ignore temporary files
+backend/*.tmp
+# Ignore IDE specific files
+backend/.idea/
+# Ignore OS generated files
+backend/.DS_Store
+# Ignore coverage reports
+backend/coverage/
+# Ignore test output
+backend/test-results/
+# Ignore package lock files
+backend/package-lock.json
+frontend/package-lock.json
+package-lock.json
+backend/__pycache__/
+backend/.venv/
+# Ignore yarn lock files
+yarn.lock
+# Ignore npm debug log
+npm-debug.log
+# Ignore build artifacts
+build/
+# Ignore documentation output
+docs/
+# Ignore configuration files
+config/
+# Ignore cache directories
+.cache/
+# Ignore specific IDE files
+.vscode/
+# Ignore specific editor files
+*.swp
+# Ignore backup files
+*~

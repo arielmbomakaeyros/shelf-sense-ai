@@ -1,0 +1,12 @@
+[project]
+name = "shelfsense"
+version = "0.1.0"
+description = "AI Shelf Stock Monitoring"
+dependencies = [
+    "package1",
+    "package2>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

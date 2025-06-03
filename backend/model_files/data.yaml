@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/ShelfsenseAI.v1i.yolov11/train/images
+val: /content/drive/MyDrive/ShelfsenseAI.v1i.yolov11/valid/images
+test: /content/drive/MyDrive/ShelfsenseAI.v1i.yolov11/test/images
+
+nc: 3
+names: ['bottle_object_smarty_price_lave_main', 'bottle_object_supermont', 'bottle_object_vitale']
+
+roboflow:
+  workspace: shelfsense-aipowered-system
+  project: shelfsense-ai
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/shelfsense-aipowered-system/shelfsense-ai/1
